@@ -1,1 +1,1 @@
-module "models"
+module "github.com/bluemediaapp/models"
