@@ -33,6 +33,12 @@ type DatabaseUser struct {
 	Interests map[string]int64 `bson:"interests" json:"interests"`
 }
 
+type UserLogin struct {
+	Id int64 `bson:"id" json:"id"`
+	Username string `bson:"username" json:"username"`
+	Password string `bson:"password" json:"password"`
+}
+
 // Generic user interaction
 
 type DatabaseWatchEvent struct {
