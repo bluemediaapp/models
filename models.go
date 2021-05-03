@@ -7,7 +7,6 @@ type DatabaseVideo struct {
 	Id          int64  `bson:"_id" json:"id"`
 	Description string `bson:"description" json:"description"`
 	Series      string `bson:"series" json:"series"`
-	VideoLength int32  `bson:"video_length" json:"video_length"`
 	Public      bool   `bson:"public" json:"public"`
 	CreatorId   int64  `bson:"creator_id" json:"creator_id"`
 
