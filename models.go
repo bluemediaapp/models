@@ -15,7 +15,6 @@ type DatabaseVideo struct {
 	// Backend metadata
 	Tags       []string `bson:"tags" json:"tags"`
 	Modifiers  []string `bson:"modifiers" json:"modifiers"`
-	BadTopics  int32    `bson:"bad_topics" json:"bad_topics"`
 	StorageKey string   `bson:"storage_key" json:"storage_key"`
 }
 
